@@ -1,0 +1,30 @@
+{
+  "name": "remind_me",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://made-by-curiosity.github.io/remind_me",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /remind_me/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/made-by-curiosity/remind_me.git"
+  },
+  "keywords": [],
+  "author": "made_by_curiosity <agnkvdm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/made-by-curiosity/remind_me/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
